@@ -58,14 +58,14 @@ adk-streaming/  # Project folder
 
 ### Criando os arquivos
 
-**Arquivo `Google Search_agent/__init__.py`**
+**Arquivo `google_search_agent/__init__.py`**
 Crie este arquivo com o seguinte conteúdo:
 
 ```python
 from . import agent
 ```
 
-**Arquivo `Google Search_agent/agent.py`**
+**Arquivo `google_search_agent/agent.py`**
 Crie este arquivo com o código abaixo. Note o uso do modelo `gemini-2.0-flash-live-001` e da ferramenta `Google Search`:
 
 ```python
@@ -92,16 +92,9 @@ root_agent = Agent(
 
 ## 🔑 3. Configuração de Autenticação
 
-Configure suas credenciais no arquivo `.env` na raiz do projeto (`adk-streaming/.env`).
+Configure suas credenciais no arquivo `.env` na raiz do projeto (`app/.env`).
 
-**Opção A: Google AI Studio (Recomendado)**
-
-```env
-GOOGLE_GENAI_USE_VERTEXAI=FALSE
-GOOGLE_API_KEY=Cole_Sua_Chave_API_Aqui
-```
-
-**Opção B: Vertex AI**
+**Vertex AI**
 
 ```env
 GOOGLE_GENAI_USE_VERTEXAI=TRUE
@@ -115,10 +108,10 @@ GOOGLE_CLOUD_LOCATION=us-central1
 
 Para testar as capacidades de voz e streaming, é necessário utilizar a interface web (`Dev UI`), pois o terminal não suporta a entrada/saída de áudio nativa do navegador.
 
-1.  Navegue até a pasta raiz `adk-streaming`:
+1.  Navegue até a pasta raiz `app`:
 
     ```bash
-    cd adk-streaming
+    cd app
     ```
 
 2.  Inicie a interface de desenvolvimento:
@@ -130,18 +123,5 @@ Para testar as capacidades de voz e streaming, é necessário utilizar a interfa
     *(Nota para usuários Windows: Se encontrar erros de recarregamento, use `adk web --no-reload`)*
 
 3.  Abra o navegador em: **http://localhost:8000**
-
-4.  **Habilitando Áudio/Vídeo:**
-
-      * No menu superior esquerdo, selecione **"basic\_search\_agent"**.
-      * Clique no ícone de **Microfone** ou **Câmera** na interface para iniciar a sessão de streaming bidirecional.
-      * Fale com o agente (ex: "Pesquise sobre as últimas notícias de tecnologia"). O agente responderá com voz em tempo real.
-
------
-
-## 🛠️ Solução de Problemas
-
-  * **Modelo não suportado:** Se receber erro de modelo, verifique no `agent.py` se o `model` está definido como `gemini-2.0-flash-live-001` ou uma versão mais recente disponível no Google AI Studio.
-  * **SSL/Certificados:** Em alguns ambientes corporativos ou Windows, se houver erros de conexão SSL, pode ser necessário configurar os certificados Python (`pip install certifi`).
-
+4.  Testa o agente!
 <!-- end list -->
