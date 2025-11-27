@@ -48,11 +48,12 @@ Para o agente de streaming, precisamos de uma estrutura específica e do modelo 
 <!-- end list -->
 
 ```text
-adk-streaming/
-├── .env                  <-- Arquivo de credenciais (na raiz do projeto)
-└── google_search_agent/
-    ├── __init__.py       <-- Arquivo de inicialização do pacote
-    └── agent.py          <-- Código do agente
+adk-streaming/  # Project folder
+└── app/ # the web app folder
+    ├── .env # Gemini API key
+    └── google_search_agent/ # Agent folder
+        ├── __init__.py # Python package
+        └── agent.py # Agent definition
 ```
 
 ### Criando os arquivos
