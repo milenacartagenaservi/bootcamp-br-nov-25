@@ -163,7 +163,6 @@ GOOGLE_CLOUD_PROJECT=ID_DO_SEU_PROJETO
 GOOGLE_CLOUD_LOCATION=us-central1
 ```
 
-*(Nota: Se usar Vertex AI, lembre-se de).*
 
 -----
 
