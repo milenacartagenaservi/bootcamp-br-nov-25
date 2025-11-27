@@ -47,6 +47,11 @@ pip install google-adk
 ## 🔑 Configuração de Autenticação (Crucial)
 
 O agente precisa de credenciais para acessar o modelo Gemini. Como boas práticas de segurança, **não incluímos as chaves no código**. Você deve criar um arquivo local.
+Vamos criar a pasta onde vamos contruir o nosso agente:
+
+```bash
+mkdir multi_tool_agent/
+```
 
 ### 1\. Criar o arquivo `.env`
 
