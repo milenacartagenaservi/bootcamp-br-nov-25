@@ -41,13 +41,9 @@ pip install google-adk
 
 Para que o agente acesse o BigQuery, ele precisa das credenciais do seu usuário ou de uma Service Account (apenas a API Key do Gemini não é suficiente para ler o banco de dados).
 
-Execute o comando abaixo e faça login com sua conta do Google Cloud:
+Precisamos criar uma credencial em APIs e servicos no Google Cloud, e fazemos clic em Credeciais.
+<img width="658" height="256" alt="image" src="https://github.com/user-attachments/assets/6a53c027-7e01-4083-9766-10d71352a989" />
 
-```bash
-gcloud auth application-default login
-```
-
-*(Isso criará um arquivo de credenciais local que a biblioteca do BigQuery detectará automaticamente).*
 
 -----
 
