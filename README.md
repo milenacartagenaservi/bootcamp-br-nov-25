@@ -9,7 +9,7 @@ O projeto está dividido em três agentes principais:
 | Pasta | Descrição | Principais Recursos |
 | :--- | :--- | :--- |
 | **`multi_tool_agent/`** | **Agente de Clima e Tempo** | Exemplo básico de *Function Calling* com ferramentas personalizadas (`get_weather`, `get_current_time`). |
-| **`Google Search_agent/`** | **Agente de Streaming (Live)** | Focado em interação de voz em tempo real usando o modelo **Gemini 2.0 Live** e Google Search. |
+| **`Google Search_agent/`** | **Agente de Streaming (Live)** | Focado em interação de voz em tempo real usando o modelo **Gemini 2.5 Live** e Google Search. |
 | **`bigquery_agent/`** | **Agente de Dados (BigQuery)** | Integração avançada para consultar datasets, listar tabelas e gerar insights via SQL e linguagem natural. |
 
 ---
