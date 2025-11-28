@@ -5,7 +5,6 @@ Este guia demonstra como configurar um agente com suporte a **Streaming Bidireci
 ## 📋 Pré-requisitos
 
 * **Python 3.10** ou superior.
-* Uma **chave de API do Google** (necessário suporte ao Gemini 2.0 Flash Live).
 
 ## 🚀 1. Instalação do Ambiente
 
