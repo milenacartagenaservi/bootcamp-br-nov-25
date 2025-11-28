@@ -159,6 +159,10 @@ GOOGLE_CLIENT_SECRET="YOUR_CLIENT_SECRET"
 
 Para interagir com o agente e visualizar os dados, use a Dev UI ou o Terminal.
 
+```bash
+cd app
+```
+
 **Opção Recomendada (Dev UI):**
 
 ```bash
@@ -167,6 +171,16 @@ adk web
 
 1.  Acesse `http://localhost:8000`.
 2.  Faça uma pergunta: *"Quantas vendas tivemos no ultimo mês?"* ou *"Faça uma previsão de vendas para a próxima semana"*.
+
+É possivel que voce receba o seguinte erro: <img width="598" height="648" alt="image" src="https://github.com/user-attachments/assets/8d900fa3-eee0-4c2b-a80f-2feb00e9fa51" />
+
+
+Se clicar em detalhes do erro, voce pode copiar a URL que recebeu:
+<img width="731" height="682" alt="image" src="https://github.com/user-attachments/assets/2727437a-edfb-4281-8971-60f3247f10df" />
+
+e, voltamos para as credeciais que criamos anteriormente, escolha a credencial, adicione a URL e salve:
+
+<img width="672" height="390" alt="image" src="https://github.com/user-attachments/assets/e7003412-1186-4b3d-a161-2396ce7b084a" />
 
 
 -----
