@@ -44,6 +44,13 @@ Para que o agente acesse o BigQuery, ele precisa das credenciais do seu usuário
 Precisamos criar uma credencial em APIs e servicos no Google Cloud, e fazemos clic em Credeciais.
 <img width="658" height="256" alt="image" src="https://github.com/user-attachments/assets/6a53c027-7e01-4083-9766-10d71352a989" />
 
+Depois, clicamos em Criar credenciais em ID de cliente de OAuth
+<img width="677" height="430" alt="image" src="https://github.com/user-attachments/assets/73d05676-8a78-411f-9506-60d08a7a8f0a" />
+
+e escolhemos aplicacao web e damos um nome
+<img width="657" height="208" alt="image" src="https://github.com/user-attachments/assets/2cec8d7d-96fd-4012-8968-3d420198f819" />
+
+e criamos. É importante salvar ou baixar o json do ID do cliente e o Secret do cliente.
 
 -----
 
