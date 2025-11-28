@@ -1,6 +1,6 @@
 # 🎙️ Streaming Agent (Google ADK)
 
-Este guia demonstra como configurar um agente com suporte a **Streaming Bidirecional** (interação em tempo real com áudio) usando o Google ADK. Este agente utiliza a ferramenta de busca do Google e o modelo Gemini 2.0 Live.
+Este guia demonstra como configurar um agente com suporte a **Streaming Bidirecional** (interação em tempo real com áudio) usando o Google ADK. Este agente utiliza a ferramenta de busca do Google e o modelo Gemini 2.5 Live.
 
 ## 📋 Pré-requisitos
 
