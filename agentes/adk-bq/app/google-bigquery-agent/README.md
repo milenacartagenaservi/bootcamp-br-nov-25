@@ -26,7 +26,6 @@ Diferente dos agentes simples, o BigQuery exige um projeto no Google Cloud (GCP)
 
 ## 🚀 1. Instalação com Dependências Extras
 
-A ferramenta do BigQuery não vem instalada por padrão no pacote básico. Você precisa instalar o ADK com a flag `[bigquery]`.
 
 **macOS / Linux:**
 ```bash
@@ -58,8 +57,8 @@ e criamos. É importante salvar ou baixar o json do ID do cliente e o Secret do 
 
 Crie a estrutura de pastas para o agente de dados.
 
-1.  Crie uma pasta chamada `bigquery_agent`.
-2.  Crie o arquivo `__init__.py` (obrigatório).
+1.  Crie uma pasta do projeto com  a hierarquia que se amostra a continuacao.
+2.  Crie o arquivo `__init__.py`.
 3.  Crie o arquivo `agent.py`.
 
 **Estrutura:**
