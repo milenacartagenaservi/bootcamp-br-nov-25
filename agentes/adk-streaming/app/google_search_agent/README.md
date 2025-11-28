@@ -39,7 +39,7 @@ pip install google-adk
 
 ## 📂 2. Estrutura e Código
 
-Para o agente de streaming, precisamos de uma estrutura específica e do modelo correto (`gemini-2.0-flash-live-001` ou superior).
+Para o agente de streaming, precisamos de uma estrutura específica e do modelo correto (`gemini-live-2.5-flash-preview-native-audio-09-2025` ou superior).
 
 1.  Crie uma pasta principal para o projeto chamada `adk-streaming`.
 2.  Dentro dela, crie uma subpasta chamada `Google Search_agent`.
@@ -66,7 +66,7 @@ from . import agent
 ```
 
 **Arquivo `google_search_agent/agent.py`**
-Crie este arquivo com o código abaixo. Note o uso do modelo `gemini-2.0-flash-live-001` e da ferramenta `Google Search`:
+Crie este arquivo com o código abaixo. Note o uso do modelo `gemini-live-2.5-flash-preview-native-audio-09-20251` e da ferramenta `Google Search`:
 
 ```python
 from google.adk.agents import Agent
